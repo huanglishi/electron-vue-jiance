@@ -5,12 +5,11 @@
             <dt>用户管理</dt>
             <dt>通信设置</dt>
             <dt>模板设置</dt>
-            <dt > </dt>
-            <dt >帮助</dt>
-            <dt >帮助</dt>
+            <dt class="help">帮助</dt>
         </dl>
     </div>
 </template>
+
 <script>
 export default {
 
