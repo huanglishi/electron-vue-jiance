@@ -17,13 +17,6 @@ export default {
 </script>
 <style scoped>
  .app-footer{
-    border-top: .02rem #e8e8e8 solid;
      width: 100%;
- }
- .app-footer dl{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:no-wrap;
  }
 </style>
