@@ -53,7 +53,7 @@ export default {
 </script>
 <style>
 .app-header{
-  border-bottom: .15vh #bbc0c1 solid;
+  border-bottom: .2vh #bbc0c1 solid;
   height:4vh;
   line-height: 4vh;
   background:#eaeeef;

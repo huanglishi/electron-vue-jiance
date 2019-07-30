@@ -6,10 +6,7 @@
                  <img :src="workplaceUrl" />
             </div>
             <div class="worker-box-left-footer"> 
-                <dl>
-                    <dt>更新时间：<span class="on">2019-7-30 23:00</span></dt>
-                    <dt>图像状态：<span class="on">生成完成</span></dt>
-                 </dl>
+
             </div>
         </div>
         <!--右边功能区-->
@@ -57,42 +54,21 @@ export default {
 }
 .worker-box .worker-box-left .worker-box-left-img{
      height: 83.7vh;
+     overflow: hidden;
      display:flex;
 	align-items:center; 
 	justify-content:center;
 }
 .worker-box .worker-box-left .worker-box-left-img img{
-    width:auto;height:auto;max-width:100%;max-height:100%;
+    width:auto;height:auto;max-width:90%;max-height:90%;
 }
 .worker-box .worker-box-left .worker-box-left-footer{
     height: 10vh;
 }
-.worker-box-left-footer dl{
-     height: 3vh;
-     line-height: 3vh;
-     margin-bottom: 0;
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    flex-wrap:no-wrap;
-    border-bottom: .15vh #e8e8e8 solid;
-}
-.worker-box-left-footer dl dt{
-    font-size: .12rem;
-    flex:1;
-    flex-grow:1;
-    border-right: .15vh #e8e8e8 solid;
-    overflow: hidden;
-    padding-left: 8px;
- }
-.worker-box-left-footer .on{
-    color: #1890ff;
- }
-/*****右边****/
 .worker-box .worker-box-rigth{
   border-left: 2px #e8e8e8 solid; 
    width: 54%;
-   height: 93.7vh;
+   height: 93.4vh;
      display:flex;
      justify-content:space-around;
     align-items:flex-start;
@@ -102,16 +78,15 @@ export default {
 .worker-box .worker-box-rigth>div{
  width: 100%;
 }
-/**功能分块****/
 .worker-box .worker-box-rigth .worker-box-item1{
-  height: 35vh;
+  height: 30%;
   border-bottom: 2px #e8e8e8 solid; 
 }
 .worker-box .worker-box-rigth .worker-box-item2{
- height:  35vh;
+ height: 35%;
   border-bottom: 2px #e8e8e8 solid; 
 }
 .worker-box .worker-box-rigth .worker-box-item3{
- height:  23.7vh;
+ height: 30%;
 }
 </style>

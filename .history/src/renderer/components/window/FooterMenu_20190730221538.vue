@@ -8,7 +8,7 @@
             <dt>激光头准备状态：<span class="off">未准备</span></dt>
             <dt>扫描状态：<span class="off">未准备</span></dt>
             <dt >服务通信状态：<span class="off">未连接</span></dt>
-            <dt  style="width:120px;">扫描进度：<span style="width:180px;">10% </span></dt>
+            <dt >扫描进度：<span ></span></dt>
         </dl>
     </div>
 </template>
@@ -28,15 +28,14 @@ export default {
     margin-bottom: 0;
     display:flex;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items:center;
     flex-wrap:no-wrap;
  }
   .app-footer dl dt{
       font-size: .12rem;
-    align-self:flex-start ;
+     align-self:flex-start ;
     flex-grow:1;
     border-right: .15vh #e8e8e8 solid;
-    overflow: hidden;
  }
 .app-footer dl:last-child{
     border-right: 0;

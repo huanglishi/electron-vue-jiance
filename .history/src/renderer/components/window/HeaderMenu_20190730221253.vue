@@ -53,7 +53,7 @@ export default {
 </script>
 <style>
 .app-header{
-  border-bottom: .15vh #bbc0c1 solid;
+  border-bottom: .1vh #e8e8e8 solid;
   height:4vh;
   line-height: 4vh;
   background:#eaeeef;
@@ -75,7 +75,7 @@ export default {
   height: 3.8vh;
   line-height:  3.8vh;
    width: 0.4rem;
-   padding: .08rem;
+   padding: .05rem;
    /* margin-right: 10px; */
   -webkit-app-region: no-drag; 
 }

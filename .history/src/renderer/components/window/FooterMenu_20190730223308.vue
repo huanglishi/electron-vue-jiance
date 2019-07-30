@@ -36,7 +36,6 @@ export default {
     align-self:flex-start ;
     flex-grow:1;
     border-right: .15vh #e8e8e8 solid;
-    overflow: hidden;
  }
 .app-footer dl:last-child{
     border-right: 0;

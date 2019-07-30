@@ -53,10 +53,10 @@ export default {
 </script>
 <style>
 .app-header{
-  border-bottom: .15vh #bbc0c1 solid;
-  height:4vh;
-  line-height: 4vh;
-  background:#eaeeef;
+  border-bottom: .02rem #e8e8e8 solid;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background:#fafafa;
   -webkit-app-region: drag;
 
   display:flex;
@@ -72,11 +72,11 @@ export default {
   text-align: right;
 }
 .app-header .header-btn .icon{
-  height: 3.8vh;
-  line-height:  3.8vh;
-   width: 0.4rem;
-   padding: .08rem;
-   /* margin-right: 10px; */
+  height: 0.38rem;
+  line-height: 0.38rem;
+   width: 0.3rem;
+   padding: .04rem;
+  margin-right: 10px;
   -webkit-app-region: no-drag; 
 }
 .app-header .header-btn .icon:hover {
