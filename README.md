@@ -24,6 +24,6 @@ npm run build
 npm run build:clean
 
 # 引入新框架
-yarn add ***
+yarn add **
 
 ```
