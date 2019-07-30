@@ -44,6 +44,6 @@ export default {
     color: #1890ff;
  }
  .app-footer .off{
-  color: #f5222d;
+    color: #1890ff;
  }
 </style>

@@ -20,7 +20,6 @@ export default {
 <style scoped>
  .app-footer{
      height: 2vh;
-     line-height: 2vh;
      border-top: .1vh #e8e8e8 solid;
      width: 100%;
  }
@@ -32,7 +31,7 @@ export default {
     flex-wrap:no-wrap;
  }
   .app-footer dl dt{
-      font-size: .12rem;
+      font-size: .13rem;
      align-self:flex-start ;
     flex-grow:1;
     border-right: .1vh #e8e8e8 solid;
@@ -40,10 +39,4 @@ export default {
 .app-footer dl:last-child{
     border-right: 0;
 }
-.app-footer .on{
-    color: #1890ff;
- }
- .app-footer .off{
-  color: #f5222d;
- }
 </style>

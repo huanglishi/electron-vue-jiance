@@ -40,10 +40,4 @@ export default {
 .app-footer dl:last-child{
     border-right: 0;
 }
-.app-footer .on{
-    color: #1890ff;
- }
- .app-footer .off{
-  color: #f5222d;
- }
 </style>
